@@ -16,6 +16,15 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #c4c4c4;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+}
+
 .top-head {
     display: flex;
     width: 100%;
@@ -577,4 +586,71 @@ h4 {
     width: 33%;
     height: 252px;
     position: relative;
+}
+
+.instagram {
+    background-color: #0d0d0d;
+    padding: 70px 0;
+    height: 1267px;
+}
+
+.instagram__container {
+    height: 1267px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.instagram__left-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.instagram__header {
+    display: flex;
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+.instagram__left-column img {
+    align-self: flex-start;
+    margin-right: 40px;
+}
+
+.instagram__left-column-item {
+    display: flex;
+}
+
+.instagram__left-column-item-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.instagram__left-column-item-content .menu-spec {
+    margin-bottom: 20px;
+}
+
+.instagram__item-date {
+    display: flex;
+    padding-left: 0;
+}
+
+.instagram__item-date li {
+    font-size: 12px;
+    font-style: italic;
+    color: #666666;
+    margin-right: 10px;
+}
+
+.instagram .admin-post {
+    color: #c20000;
+}
+
+
+.instagram__right-column {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
 }

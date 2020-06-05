@@ -621,6 +621,7 @@ h4 {
 
 .instagram__left-column-item {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .instagram__left-column-item-content {
@@ -652,5 +653,41 @@ h4 {
 .instagram__right-column {
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 48%;
+}
+
+.instagram__right-column-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.instagram__right-column-item img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.instagram__right-column-raiting {
+    display: flex;
+    flex-direction: column;
+}
+
+.instagram__item-date {
+    display: flex;
+    padding: 0;
+    margin-left: 14px;
+
+}
+
+.instagram__item-date li {
+    font-size: 12px;
+    font-style: italic;
+    color: #666666;
+    margin-right: 10px;
+    
+}
+
+.instagram__right-column-raiting ul:last-child {
+    margin-bottom: 40px;
+
 }

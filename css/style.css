@@ -16,6 +16,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-youtube,
+.fa-envelope-o {
+    cursor: pointer;
+}
+
 p {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
@@ -29,7 +37,7 @@ p {
     display: flex;
     width: 100%;
     justify-content: space-around;
-    background-color: black;
+    background-color: #080808;
 }
 
 .region-info {
@@ -41,6 +49,21 @@ p {
 
 .region-info li {
     padding-right: 20px;
+}
+
+.region-info li:last-child:hover {
+    cursor: pointer;
+}
+
+.region-info >  li::after {
+    content: " / ";
+    color: #444444;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.region-info >  li:last-child::after {
+    content: none;
 }
 
 .social {
@@ -62,7 +85,7 @@ p {
 .bottom-head {
     display: flex;
     justify-content: center;
-    background-color: #c20000;
+    background-color: #9e0303;
     height: 72px;
 }
 
@@ -72,26 +95,173 @@ p {
     margin: 10px;
 }
 
-.header-menu li {
+.header-menu .fa-angle-down {
+    transform: skewX(15deg) scale(0.9);
+}
+
+.header-menu > li {
     background-color: #a81d1d;
     padding: 17px 15px 13px 30px ;
     margin-right: 10px;
     transform: skewX(-20deg);
 }
 
-.header-menu li span {
+.header-menu > li:hover {
+    background-color: #c20000;
+    cursor: pointer;
+}
+
+.header-menu .activ {
+    background-color: #c20000;
+}
+
+.header-menu > li > span {
     transform: skewX(20deg);
     display: inline-block;
 }
 
-.header-menu li:first-child {
+.header-menu > li:first-child {
     padding: 15px 25px;
     margin-right: 120px;
 }
 
-.header-menu li:last-child {
+.header-menu > li:last-child {
     padding: 15px 25px;
     margin-left: 120px;
+}
+
+.platform-menu {
+    position: relative;
+}
+
+.platform-menu:hover .platform-menu__container {
+    display: flex;
+}
+
+.platform-menu__container {
+    position: absolute;
+    width: 1170px;
+    height: 279px;
+    padding: 24px 30px 16px 30px;
+    background-color: #080808;
+    transform: skewX(20deg);
+    left: -280px;
+    top: 52px;
+    display: none;
+    flex-direction: column;
+    cursor: default;
+    transition-delay: 0.5s;
+    transition: all 0.5s;
+    border-top: 10px solid #9e0303;
+}
+
+.platform-menu__container > ul {
+    display: flex;
+}
+
+.platform-menu__container > ul > li {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.platform-menu__container > ul::before {
+    content: "";
+    width: 7px;
+    height: 15px;
+    background-color: #c20000;
+    transform: skewX(-15deg);
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+
+.platform-menu__container > ul > li::after {
+    content: " / ";
+    color: #444444;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.platform-menu__container > ul > li:last-child::after {
+    content: none;
+}
+
+.platform-menu__container > ul > li:hover {
+    color: #c20000;
+    transition: 0.3s;
+}
+
+.platform-menu__container-content {
+    display: flex;
+}
+
+.platform-menu__container-content-item {
+    display: flex;
+    flex-direction: column;
+     width: calc(20% - 30px); 
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.platform-menu__container-content-item img {
+    align-self: flex-start;
+}
+
+.platform-menu__container-content-item h4 {
+    margin-left: 0px;
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.platform-menu__item-date {
+    display: flex;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.platform-menu__item-date li {
+    font-size: 12px;
+    font-style: italic;
+    color: #666666;
+    margin-right: 10px;
+}
+
+.pages-menu {
+    position: relative;
+}
+
+.pages-menu:hover .pages-menu__container{
+    display: flex;
+}
+
+.pages-menu__container {
+    position: absolute;
+    width: 180px;
+    background-color: #252525;
+    padding: 13px 0 20px;
+    transform: skewX(20deg);
+    top: 52px;
+    left: 52px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    transition-delay: 0.5s;
+    transition: all 0.5s;
+    border-top: 10px solid #9e0303;
+    cursor: default;
+}
+
+.pages-menu__container > ul {
+    padding: 0px;
+}
+
+.pages-menu__container > ul > li {
+    padding:6px 0 6px 30px;
+}
+
+.pages-menu__container > ul > li:hover {
+    text-shadow: 1px 0px 0px #ffffff;
+    cursor: pointer;
 }
 
 .intro {

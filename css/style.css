@@ -30,7 +30,6 @@ p {
     width: 100%;
     justify-content: space-around;
     background-color: black;
-    
 }
 
 .region-info {
@@ -38,23 +37,20 @@ p {
     padding-right: 20px;
     color: #c4c4c4;
     font-size: 13px;
-
-    
-    
 }
+
 .region-info li {
     padding-right: 20px;
-    }
+}
 
 .social {
     display: flex;
-    
     font-size: 14px;
 }
+
 .social li {
     padding-right: 10px;
 }
-
 
 .header-logo {
     display: flex;
@@ -82,6 +78,7 @@ p {
     margin-right: 10px;
     transform: skewX(-20deg);
 }
+
 .header-menu li span {
     transform: skewX(20deg);
     display: inline-block;
@@ -96,13 +93,15 @@ p {
     padding: 15px 25px;
     margin-left: 120px;
 }
+
 .intro {
     height: 946px;
-    background-image: url('img/hero-1.jpg');
+    background-image: url('../img/hero-1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .menu-spec {
     padding: 4px 7px 4px 12px;
     background: rgba(194, 0, 0, 0.3);
@@ -112,9 +111,8 @@ p {
     font-style: italic;
     font-weight: 500;
     align-self: start;
-
-    
 }
+
 .menu-spec span {
     transform: skewX(15deg);
     display: inline-block;
@@ -129,12 +127,10 @@ p {
 }
 
 .intro-left {
-    
     margin-top: 160px;
     display: flex;
     flex-direction: column;
     max-width: 50%;
-    
 }
 
 h2 {
@@ -149,7 +145,6 @@ h2 {
     font-size: 14px;
     font-style: italic;
     margin-right: 28px;
-    
 }
 
 .intro-left div img {
@@ -164,7 +159,6 @@ h2 {
     flex-direction: column;
     max-width: 33.333%;
     margin-left: 195px;
-
 }
 
 .intro-right__header {
@@ -175,9 +169,7 @@ h2 {
 
 .intro-right__chevron {
     justify-self: flex-end;
-    
 }
-
 
 h3 {
     font-size: 20px;
@@ -185,7 +177,6 @@ h3 {
     font-style: italic;
     letter-spacing: 1px;
     margin: 0;
-    
 }
 
 h4 {
@@ -206,7 +197,6 @@ h4 {
 .intro-right__item {
     display: flex;
     margin-bottom: 40px;
-    
 }
 
 .right-column {
@@ -235,7 +225,6 @@ h4 {
     flex-direction: column;
     margin: 0 auto 0 auto;
     padding: 0 15px;
-    
 }
 
 .latest-preview__header {
@@ -243,22 +232,17 @@ h4 {
     justify-content: space-between;
     margin-bottom: 35px;
     margin-left: 350px;
-
-    
-    
 }
 
 .latest-preview__chevron {
     justify-self: flex-end;
     margin-right: 380px;
-    
 }
 
 .latest-preview__items {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
 }
 
 .latest-preview__item {
@@ -290,7 +274,6 @@ h4 {
 
 .lp-pic {
     height: 180px;
-    
 }
 
 .news {
@@ -305,8 +288,6 @@ h4 {
     justify-content: center;
     margin: 0 auto;
     max-width: 1170px;
-    
-    
 }
 
 .news__left-column {
@@ -314,6 +295,7 @@ h4 {
     flex-direction: column;
     width: 780px;
 }
+
 .news__header {
     display: flex;
     justify-content: space-between;
@@ -323,7 +305,6 @@ h4 {
 .news__menu {
     display: flex;
     margin: 0;
-
 }
 
 .news__menu li {
@@ -343,7 +324,6 @@ h4 {
     position: relative;
     margin-bottom: 20px;
     width: 100%;
-    
 }
 
 .news__main-item img {
@@ -351,15 +331,14 @@ h4 {
     height: 100%;
 }
 
-
 .news__text-container {
     display: flex;
     flex-direction: column;
     position: absolute;
     bottom: 0;
     margin-left: 30px;
-    
 }
+
 .news__item-date {
     display: flex;
     padding-left: 0;
@@ -426,7 +405,6 @@ h4 {
     align-self: flex-end;
     margin-left: 80px;
     margin-right: 20px;
-    
 }
 
 .news__social li span {
@@ -458,7 +436,6 @@ h4 {
 .news__item-date {
     display: flex;
     margin-left: 10px;
-
 }
 
 .news__item-date li {
@@ -492,7 +469,6 @@ h4 {
     display: flex;
     margin: 0;
     margin-left: 580px;
-
 }
 
 .guide__menu li {
@@ -513,7 +489,7 @@ h4 {
 }
 
 .guide__row-first-item {
-    background-image: url(img/videos-1.jpg);
+    background-image: url(../img/videos-1.jpg);
     background-repeat: no-repeat;
     width: 50%;
     height: 384px;
@@ -534,7 +510,6 @@ h4 {
 .guide__item-date {
     display: flex;
     padding: 0;
-
 }
 
 .guide__item-date li {
@@ -545,7 +520,7 @@ h4 {
 }
 
 .guide__row-second-item {
-    background-image: url(img/videos-2.jpg);
+    background-image: url(../img/videos-2.jpg);
     background-repeat: no-repeat;
     width: 50%;
     height: 384px;
@@ -553,7 +528,7 @@ h4 {
 }
 
 .guide__row-third-item {
-    background-image: url(img/videos-3.jpg);
+    background-image: url(../img/videos-3.jpg);
     background-repeat: no-repeat;
     width: 33%;
     height: 252px;
@@ -572,7 +547,7 @@ h4 {
 }
 
 .guide__row-fourth-item {
-    background-image: url(img/videos-4.jpg);
+    background-image: url(../img/videos-4.jpg);
     background-repeat: no-repeat;
     width: 33%;
     height: 252px;
@@ -581,7 +556,7 @@ h4 {
 }
 
 .guide__row-fifth-item {
-    background-image: url(img/videos-5.jpg);
+    background-image: url(../img/videos-5.jpg);
     background-repeat: no-repeat;
     width: 33%;
     height: 252px;
@@ -693,7 +668,6 @@ h4 {
     display: flex;
     padding: 0;
     margin-left: 14px;
-
 }
 
 .instagram__item-date li {
@@ -701,12 +675,10 @@ h4 {
     font-style: italic;
     color: #666666;
     margin-right: 10px;
-    
 }
 
 .instagram__right-column-raiting ul:last-child {
     margin-bottom: 40px;
-
 }
 
 .instagram__input {
@@ -714,7 +686,6 @@ h4 {
     padding-left: 20px;
     transform: skewX(-15deg);
     margin-bottom: 20px;
-
 }
 
 .instagram__input input {
@@ -764,7 +735,6 @@ h4 {
 
 .footer__container-column img {
     align-self: flex-start;
-    
 }
 
 .footer__container-column p {
@@ -792,7 +762,6 @@ h4 {
 .footer__container-column-item {
     display: flex;
     margin-bottom: 20px;
-    
 }
 
 .footer__header {
@@ -814,7 +783,6 @@ h4 {
     font-style: italic;
     color: #666666;
     margin-right: 10px;
-    
 }
 
 .footer__container-column-item-content {
@@ -825,7 +793,6 @@ h4 {
 .footer__tags-list {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .footer__tags-list-item {

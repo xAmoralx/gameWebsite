@@ -1005,6 +1005,47 @@ h4 {
     cursor: pointer;
 }
 
+.instagram__right-column-container {
+    display: flex;
+}
+
+.raiting-container {
+    position: relative;
+}
+
+.raiting-container::before {
+    content: "9.5";
+    margin-top: 18px;
+    display: flex;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+.raiting-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+}
+
+.round {
+    fill: none;
+    stroke: #c20000;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-dasharray: 298;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .round:last-child {
+      stroke: #212529;
+      transform: rotate(90deg);
+      z-index: 500;
+  }
+
 .instagram__item-date {
     display: flex;
     padding: 0;
@@ -1019,7 +1060,8 @@ h4 {
 }
 
 .instagram__right-column-raiting ul:last-child {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    margin-top: 4px;
 }
 
 .instagram__input {

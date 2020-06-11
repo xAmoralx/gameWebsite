@@ -358,7 +358,8 @@ h2 {
     padding: 35px 30px 40px 40px;
     display: flex;
     flex-direction: column;
-    max-width: 33.333%;
+    max-width: 24.333%;
+    margin-left: 16.666667%;
 }
 
 .intro-right__header {
@@ -509,13 +510,11 @@ h4 {
 }
 
 .news {
-    height: 924px;
     padding: 65px 0 30px 0;
     background-color: #0d0d0d;
 }
 
 .news__container {
-    height: 924px;
     display: flex;
     justify-content: center;
     margin: 0 auto;

@@ -36,6 +36,7 @@
     .intro-right {
         max-width: 50%;
         height: 631px;
+        margin-left: 0;
     }
 
     .intro-right__header {
@@ -45,5 +46,109 @@
     .intro-right__item-date {
         margin-bottom: 0;
         margin-top: 5px;
+    }
+
+    .intro-right__item {
+        margin-bottom: 45px;
+    }
+
+    .latest-preview__header {
+        margin-left: 24px;
+    }
+
+    .latest-preview__chevron {
+        margin-right: 24px;
+    }
+
+    .latest-preview__item:last-child {
+        display: none;
+    } 
+
+    .latest-preview__item {
+        width: 210px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0;
+    }
+
+    .news__main-item {
+        margin-bottom: 30px;
+    }
+
+    .news__container {
+        flex-direction: column;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 720px;
+    }
+
+    .news__left-column {
+        width: auto;
+    }
+
+    .news__right-column {
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 40px;
+    }
+
+    .news__right-header {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .news__row-item {
+        display: flex;
+        width: 220px;
+        margin-right: 30px;
+    }
+
+    .news__item-date {
+        margin-top: 4px;
+    }
+
+    .news__social li {
+        transform: skewX(-15deg) scale(0.9);
+    }
+
+    .news__social > ul > li:nth-child(1) > span:last-child {
+        margin-left: 477px;
+    }
+
+    .news__social > ul > li:nth-child(2) > span:last-child {
+        margin-left: 494px;
+    }
+
+    .news__social > ul > li:nth-child(3) > span:last-child {
+        margin-left: 483px;
+    }
+
+    .news__social > ul > li:nth-child(4) > span:last-child {
+        margin-left: 468px;
+    }
+
+    .news__social ul {
+        padding: 0;
+    }
+
+    .news__social-icon {
+        padding: 15px 20px 15px 20px;
+        margin-left: -40px;
+    }
+
+    .news__guides {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .news__guides-header {
+        margin-bottom: 40px;
+    }
+
+    .news__guides-item {
+        margin-bottom: 40px;
     }
 }

@@ -125,24 +125,28 @@
         margin-top: 4px;
     }
 
+    .news__social i {
+        transform: scale(1.05);
+    }
+
     .news__social li {
         transform: skewX(-15deg) scale(0.9);
     }
 
     .news__social > ul > li:nth-child(1) > span:last-child {
-        margin-left: 477px;
+        margin-left: 453px;
     }
 
     .news__social > ul > li:nth-child(2) > span:last-child {
-        margin-left: 494px;
+        margin-left: 470px;
     }
 
     .news__social > ul > li:nth-child(3) > span:last-child {
-        margin-left: 483px;
+        margin-left: 459px;
     }
 
     .news__social > ul > li:nth-child(4) > span:last-child {
-        margin-left: 468px;
+        margin-left: 443px;
     }
 
     .news__social ul {

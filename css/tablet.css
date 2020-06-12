@@ -198,4 +198,66 @@
         background-size: cover;
         background-position: top center;
     }
+
+    .instagram {
+        height: auto;
+    }
+
+    .instagram__container {
+        flex-direction: column;
+        height: auto;
+        max-width: 720px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .instagram__left-column-navigation {
+        margin-top: 0;
+    }
+
+    .instagram__right-column {
+        padding-top: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: auto;
+    }
+
+    .instagram__right-column-item img {
+    width: calc(50% - 10px);
+    max-width: 100%;
+    }
+
+    .instagram__right-column-item {
+    width: 400px;
+    height: 400px;
+    }
+
+    .instagram__right-column-container {
+        margin-bottom: 30px;
+    }
+
+    .raiting-content {
+        margin-left: 26px;
+    }
+
+    .raiting-content h4 {
+        letter-spacing: normal;
+    }
+
+    .instagram__right-column p {
+        max-width: 400px;
+    }
+
+    .instagram__input {
+        max-width: 370px;
+    }
+
+    .instagram__subscribe {
+        max-width: 231px;
+        padding-left: 151px;
+    }
+
+    
 }

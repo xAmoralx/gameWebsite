@@ -144,7 +144,7 @@
     }
 
     .news__social > ul > li:nth-child(1) > span:last-child {
-        margin-left: 453px;
+        margin-left: 442px;
     }
 
     .news__social > ul > li:nth-child(2) > span:last-child {
@@ -166,6 +166,11 @@
     .news__social-icon {
         padding: 15px 20px 15px 20px;
         margin-left: -40px;
+    }
+
+    .news__social .fa-facebook {
+        padding-left: 24px;
+        padding-right: 24px;
     }
 
     .news__guides {

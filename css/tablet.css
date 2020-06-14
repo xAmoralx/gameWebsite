@@ -4,6 +4,10 @@
         display: none;
     }
 
+    .news__menu i {
+        display: none;
+    }
+
     .header-menu li:first-child {
         display: flex;
         margin: 0;

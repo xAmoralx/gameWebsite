@@ -43,6 +43,10 @@ color: #eaeaea4d;
     cursor: pointer;
 }
 
+.news__menu i {
+    display: none;
+}
+
 p {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;

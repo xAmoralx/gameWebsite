@@ -507,6 +507,25 @@ h4 {
 
 .lp-pic {
     height: 180px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.latest-preview__item:nth-child(1) .lp-pic {
+    background-image: url("../img/lp-1.jpg");
+}
+
+.latest-preview__item:nth-child(2) .lp-pic {
+    background-image: url("../img/lp-2.jpg");
+}
+
+.latest-preview__item:nth-child(3) .lp-pic {
+    background-image: url("../img/lp-3.jpg");
+}
+
+.latest-preview__item:nth-child(4) .lp-pic {
+    background-image: url("../img/lp-4.jpg");
 }
 
 .news {

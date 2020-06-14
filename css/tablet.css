@@ -85,6 +85,10 @@
         margin-bottom: 30px;
     }
 
+    .news__menu li:hover {
+        color: #c20000;
+    }
+
     .news__container {
         flex-direction: column;
         padding-right: 36px;
@@ -139,6 +143,14 @@
         transform: scale(1.05);
     }
 
+    .news__social li:focus .news__social-icon {
+        background-color: #40c4ff;
+    }
+    
+    .news__social li:focus {
+        border-color: #40c4ff;
+    }
+
     .news__social li {
         transform: skewX(-15deg) scale(0.9);
     }
@@ -188,8 +200,8 @@
 
     .guide__container {
         max-width: 1024px;
-        padding-right: 24px;
-        padding-left: 24px;
+        padding-right: 36px;
+        padding-left: 36px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -251,6 +263,15 @@
         margin-right: 30px;
     }
 
+    .instagram__left-column-item-content .menu-spec {
+        margin-bottom: 10px;
+    }
+
+    .instagram__left-column-item-content .instagram__item-date {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
     .instagram__left-column-item-content h3 {
         letter-spacing: 0.5px;
     }
@@ -262,6 +283,27 @@
     .instagram__right-column {
         padding-top: 40px;
         width: auto;
+    }
+
+    .instagram__right-column-tabletwrap {
+        display: flex;
+    }
+
+    .instagram__right-column-tabletwrap-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .instagram__right-column-tabletwrap-right {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .instagram__right-column-tabletwrap-middle {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
     }
 
     .instagram__right-column-item img {

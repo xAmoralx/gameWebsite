@@ -582,6 +582,7 @@ h4 {
 
 .news__menu li:hover {
     cursor: pointer;
+    color: #c20000;
 }
 
 .news__chevron {
@@ -801,6 +802,7 @@ h4 {
 
 .guide__menu > li:hover {
     cursor: pointer;
+    color: #c20000;
 }
 
 .guide__menu .guide__menu_selected {

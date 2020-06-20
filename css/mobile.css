@@ -1,4 +1,17 @@
 @media only screen and (max-device-width: 748px) {
+    .top-head .social {
+        display: none;
+    }
+    
+    .region-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .region-info li:last-child {
+        margin-top: 10px;
+    }
+
     .header-menu li {
         display: none;
     }

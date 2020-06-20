@@ -256,7 +256,7 @@
     .instagram__container {
         flex-direction: column;
         height: auto;
-        max-width: 720px;
+        max-width: 1024px;
         padding-left: 36px;
         padding-right: 36px;
         margin-left: auto;
@@ -352,7 +352,7 @@
     .footer__container {
         padding-left: 39px;
         padding-right: 15px;
-        max-width: 720px;
+        max-width: 1024px;
         flex-direction: column;
     }
 

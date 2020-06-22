@@ -671,7 +671,7 @@ h4 {
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 166px;
+    min-height: 166px;
     width: 100%;
 }
 
@@ -680,7 +680,7 @@ h4 {
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 166px;
+    min-height: 166px;
     width: 100%;
 }
 
@@ -689,7 +689,7 @@ h4 {
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 166px;
+    min-height: 166px;
     width: 100%;
 }
 
@@ -894,7 +894,7 @@ h4 {
     background-image: url(../img/videos-1.jpg);
     background-repeat: no-repeat;
     width: 50%;
-    height: 384px;
+    min-height: 384px;
     position: relative;
     margin-right: 10px;
 }
@@ -925,7 +925,7 @@ h4 {
     background-image: url(../img/videos-2.jpg);
     background-repeat: no-repeat;
     width: 50%;
-    height: 384px;
+    min-height: 384px;
     position: relative;
 }
 
@@ -933,7 +933,7 @@ h4 {
     background-image: url(../img/videos-3.jpg);
     background-repeat: no-repeat;
     width: 33%;
-    height: 252px;
+    min-height: 252px;
     position: relative;
     margin-right: 10px;
 }

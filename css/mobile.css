@@ -236,19 +236,19 @@
     }
 
     .news__social > ul > li:nth-child(1) > span:last-child {
-        margin-left: 102px;
+        margin-left: 98px;
     }
 
     .news__social > ul > li:nth-child(2) > span:last-child {
-        margin-left: 127px;
+        margin-left: 123px;
     }
 
     .news__social > ul > li:nth-child(3) > span:last-child {
-        margin-left: 116px;
+        margin-left: 112px;
     }
 
     .news__social > ul > li:nth-child(4) > span:last-child {
-        margin-left: 101px;
+        margin-left: 97px;
     }
 
     .news__social ul {
@@ -445,12 +445,12 @@
     }
 
     .instagram__right-column-item img {
-    width: calc(45% - 10px);
+    width: 47%;
     max-width: 100%;
     }
 
     .instagram__right-column-item {
-    width: 400px;
+    width: 100%;
     height: auto;
     }
 

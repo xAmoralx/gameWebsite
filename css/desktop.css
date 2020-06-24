@@ -453,7 +453,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
-    margin-left: 350px;
+    margin-left: 132px;
 }
 
 .latest-preview__header > h3::before {
@@ -469,7 +469,7 @@ h4 {
 
 .latest-preview__chevron {
     justify-self: flex-end;
-    margin-right: 380px;
+    margin-right: 158px;
 }
 
 .latest-preview__items {
@@ -495,6 +495,7 @@ h4 {
 
 .latest-preview__item > h4:hover {
     cursor: pointer;
+    color: #c20000;
 }
 
 .latest-preview__item-date {
@@ -587,6 +588,7 @@ h4 {
 .news__menu li:hover {
     cursor: pointer;
     color: #c20000;
+    transition: 0.3s;
 }
 
 .news__chevron {
@@ -693,8 +695,6 @@ h4 {
     width: 100%;
 }
 
-
-
 .news__row-item-content {
     padding-top: 10px;
 }
@@ -706,6 +706,8 @@ h4 {
 
 .news__row-item-content > h4:hover {
     cursor: pointer;
+    color: #c20000;
+    transition: 0.3s;
 }
 
 .news__row-item-content > .news__item-date {
@@ -763,6 +765,22 @@ h4 {
     align-self: flex-end;
     margin-left: 80px;
     margin-right: 20px;
+}
+
+.news__social > ul > li:nth-child(1) > span:last-child {
+    margin-left: 95px;
+}
+
+.news__social > ul > li:nth-child(2) > span:last-child {
+    margin-left: 112px;
+}
+
+.news__social > ul > li:nth-child(3) > span:last-child {
+    margin-left: 101px;
+}
+
+.news__social > ul > li:nth-child(4) > span:last-child {
+    margin-left: 85px;
 }
 
 .news__social li span {
@@ -839,6 +857,18 @@ h4 {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
+}
+
+.guide__container h3:hover {
+    cursor: pointer;
+    color: #c20000;
+    transition: 0.3s;
+}
+
+.guide__container h4:hover {
+    cursor: pointer;
+    color: #c20000;
+    transition: 0.3s;
 }
 
 .guide__header {
@@ -1014,6 +1044,8 @@ h4 {
 
 .instagram__left-column-item-content > h3:hover {
     cursor: pointer;
+    color: #c20000;
+    transition: 0.3s;
 }
 
 .instagram__left-column-item-content {
@@ -1086,8 +1118,10 @@ h4 {
     flex-direction: column;
 }
 
-.instagram__right-column-raiting > h4:hover {
+.instagram__right-column-container h4:hover {
     cursor: pointer;
+    color: #c20000;
+    transition: 0.3s;
 }
 
 .instagram__right-column-container {
@@ -1260,7 +1294,7 @@ h4 {
 .footer-section {
     background-color: #080808;
     padding-top: 60px;
-    height: 397px;
+    height: auto;
 }
 
 .footer__container {
@@ -1358,6 +1392,8 @@ h4 {
 
 .footer__container-column-item-content > h4:hover {
     cursor: pointer;
+    color: #c20000;
+    transition: 0.3s;
 }
 
 .footer__tags-list {
@@ -1377,6 +1413,8 @@ h4 {
 
 .footer__tags-list-item:hover {
     cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(64, 196, 255);
 }
 
 .footer__tags-list-item span {
